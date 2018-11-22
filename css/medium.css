@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** HEADER ***/
+
+.visuel_img {
+	width:100%;
+}
+
+.visual_design {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*** NAV ***/
+
+.toggle 
+{
+	display: block;
+}
+
+.ul_menu {
+	width:100%;
+	display: none;
+	background:#749CD3;
+}
+
+ul.ul_menu {
+	padding-right:0;
+}
+
+.ul_menu li {
+	display:block;
+	text-align: center;
+}
+
+.ul_menu a {
+	text-decoration: none;
+	width:100%;
+	padding:20px;
+}
+
+.active {
+	display:block;
+	color:#749CD3 !important;
+}
+
+.active a {
+	text-decoration: none !important;
+}
+
+/*** SECTION: YDELSER ***/
+
+
+
+/*** SECTION: ARBEJDE ***/
+
+.wrapper_case {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.display_none {
+	display:block;
+}
+
+/*** SECTION: OM OS ***/
+
+.wrapper_about {
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap:40px;
+}
+
+/*** SECTION: KONTAKT ***/
+
+.wrapper_users {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.wrapper_form {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.container_form {
+	margin-left:0;
+}
+
+.gmap {
+	width:50%;
+}
+
+/*** SECTION: FOLLOW US ***/
+
+.follow_icon {
+	width:15%;
+}
+
+/*** FOOTER ***/
+
+.column {
+	width:100%;
+}
+
+.column2 {
+	width:100%;
+	margin-top:20px;
+	margin-left:0;
+}
+
